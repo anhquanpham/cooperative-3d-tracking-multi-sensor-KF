@@ -26,12 +26,12 @@ This repository re-implements and extends **DMSTrack** – a Differentiable Mult
 
 ## 📊 Results
 
-| Method                        | AMOTA ↑     | AMOTP | sAMOTA ↑ | MOTA    |
-| ----------------------------- | ----------- | ----- | -------- | ------- |
-| Default DMSTrack              | 43.52 %     | 57.94 | 91.50 %  | 88.32 % |
-| **DMSTrack with ReLU** (ours) | **43.61 %** | 57.51 | 91.64 %  | 88.71 % |
-| LeakyReLU variant             | 41.48 %     | 54.83 | 88.92 %  | 88.10 % |
-| Constant covariance           | 41.51 %     | 55.87 | 89.37 %  | 88.68 % |
+| Method                          | AMOTA ↑   | AMOTP ↑   | sAMOTA ↑  | MOTA ↑    | MT ↑      | ML ↓      |
+| ------------------------------- | --------- | --------- | --------- | --------- | --------- | --------- |
+| Constant covariance             | 41.51     | 55.87     | 89.37     | 88.68     | 66.67     | 13.67     |
+| Default DMSTrack                | 43.52     | **57.94** | 91.50     | 88.32     | **68.35** | **13.19** |
+| **DMSTrack with ReLU (ours)**   | **43.61** | 57.51     | **91.64** | **88.71** | 67.39     | 13.43     |
+| DMSTrack with Leaky ReLU (ours) | 41.48     | 54.83     | 88.92     | 88.10     | 66.43     | 13.43     |
 
 ---
 
