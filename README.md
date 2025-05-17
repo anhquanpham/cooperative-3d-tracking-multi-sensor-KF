@@ -26,6 +26,9 @@ This repository re-implements and extends **DMSTrack** – a Differentiable Mult
 
 ## 📊 Results
 
+![{B3ED8C4D-A722-452F-A250-24E02220F1BD}](https://github.com/user-attachments/assets/756d8a32-f5a8-40a7-a8f6-cf02715a59ce)
+
+
 | Method                          | AMOTA ↑   | AMOTP ↑   | sAMOTA ↑  | MOTA ↑    | MT ↑      | ML ↓      |
 | ------------------------------- | --------- | --------- | --------- | --------- | --------- | --------- |
 | Constant covariance             | 41.51     | 55.87     | 89.37     | 88.68     | 66.67     | 13.67     |
